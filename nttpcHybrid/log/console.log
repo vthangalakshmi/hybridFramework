@@ -376,3 +376,68 @@ Session ID: 9f07f1ca55358b8755bd1d4f34b94724
  INFO [main] (ActionsDriver.java:38)- Clicked the element Submit button of Change Password
  INFO [main] (ActionsDriver.java:71)- Mouseover and click is successful for the element Logout Link
  INFO [main] (MarketplaceChangePassword.java:30)- Change Password is successful
+ INFO [main] (ActionsDriver.java:25)- Opened URL
+ INFO [main] (ActionsDriver.java:71)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:54)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:54)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:38)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:39)- Login is successful
+ INFO [main] (ActionsDriver.java:71)- Mouseover and click is successful for the element MyAccountPage
+ INFO [main] (ActionsDriver.java:38)- Clicked the element Change Password Tab
+ INFO [main] (ActionsDriver.java:54)- Passed keys to the element Current Password
+ INFO [main] (ActionsDriver.java:54)- Passed keys to the element New Password
+ INFO [main] (ActionsDriver.java:54)- Passed keys to the element Confirm Password
+ INFO [main] (ActionsDriver.java:38)- Clicked the element Submit button of Change Password
+ INFO [main] (ActionsDriver.java:71)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (MarketplaceChangePassword.java:30)- Change Password is successful
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullyaccountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullyloginButton
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullyaccountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element MyAccountPage
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullychangePassword
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Change Password Tab
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Current Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element New Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Confirm Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullychangePasswordSubmit
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Submit button of Change Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfullylogoutLink
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (MarketplaceChangePassword.java:32)- Change Password is successful
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully loginButton
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully logoutLink
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link

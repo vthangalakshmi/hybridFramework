@@ -142,3 +142,68 @@ Session ID: 9f07f1ca55358b8755bd1d4f34b94724
 2019-03-27 20:45:59,709 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
 2019-03-27 20:46:04,200 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
 2019-03-27 20:46:04,201 - Hybrid Framework -INFO - Change Password is successful
+2019-03-28 14:26:13,012 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:26:17,292 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:26:17,694 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:26:17,898 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:26:20,955 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:26:21,956 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:26:23,755 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-28 14:26:25,139 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-28 14:26:25,366 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-28 14:26:25,587 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-28 14:26:25,803 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-28 14:26:28,781 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-28 14:26:33,121 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-28 14:26:33,121 - Hybrid Framework -INFO - Change Password is successful
+2019-03-28 14:41:22,874 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:41:27,174 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:41:27,521 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:41:27,701 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:41:30,663 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:41:31,684 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:41:32,838 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-28 14:43:05,793 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:43:10,051 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:43:10,532 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:43:10,749 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:43:13,564 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:43:14,567 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:43:15,801 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-28 14:45:17,349 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:45:21,695 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:45:22,130 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:45:22,342 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:45:24,944 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:45:25,945 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:45:27,109 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-28 14:50:04,831 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:50:07,938 - Hybrid Framework -INFO - Element Hightlighted successfullyaccountHeader
+2019-03-28 14:50:09,260 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:50:09,684 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:50:09,904 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:50:09,956 - Hybrid Framework -INFO - Element Hightlighted successfullyloginButton
+2019-03-28 14:50:13,116 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:50:14,119 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:50:14,181 - Hybrid Framework -INFO - Element Hightlighted successfullyaccountHeader
+2019-03-28 14:50:15,940 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-28 14:50:15,996 - Hybrid Framework -INFO - Element Hightlighted successfullychangePassword
+2019-03-28 14:50:17,197 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-28 14:50:17,422 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-28 14:50:17,662 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-28 14:50:17,882 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-28 14:50:17,930 - Hybrid Framework -INFO - Element Hightlighted successfullychangePasswordSubmit
+2019-03-28 14:50:20,171 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-28 14:50:23,272 - Hybrid Framework -INFO - Element Hightlighted successfullylogoutLink
+2019-03-28 14:50:24,495 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-28 14:50:24,499 - Hybrid Framework -INFO - Change Password is successful
+2019-03-28 14:53:44,042 - Hybrid Framework -INFO - Opened URL
+2019-03-28 14:53:47,119 - Hybrid Framework -INFO - Element Hightlighted successfully accountHeader
+2019-03-28 14:53:48,243 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-28 14:53:48,679 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-28 14:53:48,899 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-28 14:53:48,948 - Hybrid Framework -INFO - Element Hightlighted successfully loginButton
+2019-03-28 14:53:51,740 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-28 14:53:52,746 - Hybrid Framework -INFO - Login is successful
+2019-03-28 14:53:52,815 - Hybrid Framework -INFO - Element Hightlighted successfully logoutLink
+2019-03-28 14:53:53,979 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link

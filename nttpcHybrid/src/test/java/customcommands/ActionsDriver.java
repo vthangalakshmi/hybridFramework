@@ -1,6 +1,7 @@
 package customcommands;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -89,6 +90,17 @@ public class ActionsDriver extends StartBrowser {
 			log.error("Failed to select the input from the element "+element+" and the exception is "+e);
 		}
 		
+	}
+	
+	public void highLightElement(By locator,String element){
+		try{
+			WebElement we=driver.findElement(locator);
+	JavascriptExecutor js=(JavascriptExecutor)driver; 
+	js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid black;');", we);
+	log.info("Element Hightlighted successfully "+element);
+		}catch (Exception e){
+			log.error("Element Highlight is unsuccessful "+element+" and the exception is "+e);
+	     } 
 	}
 	
 	public String generatePassword(){

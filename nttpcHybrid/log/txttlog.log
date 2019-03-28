@@ -1,0 +1,144 @@
+2019-03-27 18:56:18,428 - Hybrid Framework -INFO - Opened URL
+2019-03-27 18:56:28,436 - Hybrid Framework -ERROR - Unable to open login page java.lang.NullPointerException
+2019-03-27 18:56:28,562 - Hybrid Framework -ERROR - Failed to enter the input for the element EmailID and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 8dd7d8e6037852c1b898697da8bec134
+*** Element info: {Using=id, value=email}
+2019-03-27 18:56:28,617 - Hybrid Framework -ERROR - Failed to enter the input for the element Password and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"pass"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 8dd7d8e6037852c1b898697da8bec134
+*** Element info: {Using=id, value=pass}
+2019-03-27 18:56:28,659 - Hybrid Framework -ERROR - Failed to click the element Login Button and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='send2']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 8dd7d8e6037852c1b898697da8bec134
+*** Element info: {Using=xpath, value=//*[@id='send2']}
+2019-03-27 18:56:29,665 - Hybrid Framework -INFO - Login is successful
+2019-03-27 18:56:29,810 - Hybrid Framework -ERROR - Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='usr-menu']/li[5]/a"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 8dd7d8e6037852c1b898697da8bec134
+*** Element info: {Using=xpath, value=//ul[@id='usr-menu']/li[5]/a}
+2019-03-27 18:57:15,547 - Hybrid Framework -INFO - Opened URL
+2019-03-27 18:57:19,961 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 18:57:20,386 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 18:57:20,658 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 18:57:22,127 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 18:57:23,134 - Hybrid Framework -INFO - Login is successful
+2019-03-27 18:57:23,234 - Hybrid Framework -ERROR - Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='usr-menu']/li[5]/a"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 34f8d902d2a29c68c0999c4264dacbf9
+*** Element info: {Using=xpath, value=//ul[@id='usr-menu']/li[5]/a}
+2019-03-27 19:04:09,761 - Hybrid Framework -INFO - Opened URL
+2019-03-27 19:04:14,039 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 19:04:14,488 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 19:04:14,684 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 19:04:14,846 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 19:04:15,848 - Hybrid Framework -INFO - Login is successful
+2019-03-27 19:04:15,973 - Hybrid Framework -ERROR - Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='usr-menu']/li[5]/a"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 9f07f1ca55358b8755bd1d4f34b94724
+*** Element info: {Using=xpath, value=//ul[@id='usr-menu']/li[5]/a}
+2019-03-27 19:05:07,912 - Hybrid Framework -INFO - Opened URL
+2019-03-27 19:05:12,459 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 19:05:12,904 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 19:05:13,149 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 19:05:15,851 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 19:05:16,856 - Hybrid Framework -INFO - Login is successful
+2019-03-27 19:05:18,086 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-27 19:09:33,298 - Hybrid Framework -INFO - Opened URL
+2019-03-27 19:09:37,566 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 19:09:37,908 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 19:09:38,114 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 19:09:41,016 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 19:09:42,017 - Hybrid Framework -INFO - Login is successful
+2019-03-27 19:09:43,939 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-27 19:09:45,376 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-27 19:09:45,633 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-27 19:09:45,884 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-27 19:09:46,130 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-27 19:09:48,953 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-27 19:09:53,346 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-27 19:09:53,348 - Hybrid Framework -INFO - Change Password is successful
+2019-03-27 19:14:15,501 - Hybrid Framework -INFO - Opened URL
+2019-03-27 19:14:20,053 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 19:14:20,470 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 19:14:20,696 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 19:14:23,565 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 19:14:24,565 - Hybrid Framework -INFO - Login is successful
+2019-03-27 19:14:26,471 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-27 19:14:28,049 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-27 19:14:28,301 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-27 19:14:28,545 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-27 19:14:28,789 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-27 19:14:31,189 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-27 19:14:35,521 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-27 19:14:35,521 - Hybrid Framework -INFO - Change Password is successful
+2019-03-27 20:29:49,674 - Hybrid Framework -INFO - Opened URL
+2019-03-27 20:29:53,928 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 20:29:54,331 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 20:29:54,538 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 20:29:57,023 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 20:29:58,024 - Hybrid Framework -INFO - Login is successful
+2019-03-27 20:29:59,702 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-27 20:30:00,876 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-27 20:30:01,084 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-27 20:30:01,338 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-27 20:30:01,586 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-27 20:30:03,944 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-27 20:30:08,131 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-27 20:30:08,131 - Hybrid Framework -INFO - Change Password is successful
+2019-03-27 20:45:42,274 - Hybrid Framework -INFO - Opened URL
+2019-03-27 20:45:46,893 - Hybrid Framework -INFO - Mouseover and click is successful for the element LoginLink
+2019-03-27 20:45:47,215 - Hybrid Framework -INFO - Passed keys to the element EmailID
+2019-03-27 20:45:47,408 - Hybrid Framework -INFO - Passed keys to the element Password
+2019-03-27 20:45:51,314 - Hybrid Framework -INFO - Clicked the element Login Button
+2019-03-27 20:45:52,315 - Hybrid Framework -INFO - Login is successful
+2019-03-27 20:45:54,572 - Hybrid Framework -INFO - Mouseover and click is successful for the element MyAccountPage
+2019-03-27 20:45:56,026 - Hybrid Framework -INFO - Clicked the element Change Password Tab
+2019-03-27 20:45:56,265 - Hybrid Framework -INFO - Passed keys to the element Current Password
+2019-03-27 20:45:56,485 - Hybrid Framework -INFO - Passed keys to the element New Password
+2019-03-27 20:45:56,739 - Hybrid Framework -INFO - Passed keys to the element Confirm Password
+2019-03-27 20:45:59,709 - Hybrid Framework -INFO - Clicked the element Submit button of Change Password
+2019-03-27 20:46:04,200 - Hybrid Framework -INFO - Mouseover and click is successful for the element Logout Link
+2019-03-27 20:46:04,201 - Hybrid Framework -INFO - Change Password is successful

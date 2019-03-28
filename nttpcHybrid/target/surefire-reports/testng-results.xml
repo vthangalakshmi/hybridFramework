@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38820" started-at="2019-03-27T15:15:25Z" finished-at="2019-03-27T15:16:04Z">
+    <groups>
+      <group name="SmokeTesting">
+        <method signature="MarketplaceChangePassword.changePassword()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="changePassword" class="testCases.MarketplaceChangePassword"/>
+        <method signature="MarketplaceChangePassword.successMessage()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="successMessage" class="testCases.MarketplaceChangePassword"/>
+        <method signature="MarketplaceChangePassword.successMessage1()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="successMessage1" class="testCases.MarketplaceChangePassword"/>
+        <method signature="MarketplaceLogin.openingLoginPage()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="openingLoginPage" class="testCases.MarketplaceLogin"/>
+        <method signature="MarketplaceLogin.loginSuccess()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="loginSuccess" class="testCases.MarketplaceLogin"/>
+      </group> <!-- SmokeTesting -->
+    </groups>
+    <test name="Test for Marketplace Change Password" duration-ms="38820" started-at="2019-03-27T15:15:25Z" finished-at="2019-03-27T15:16:04Z">
+      <class name="testCases.MarketplaceLogin">
+        <test-method status="PASS" signature="report()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="report" is-config="true" duration-ms="342" started-at="2019-03-27T15:15:25Z" finished-at="2019-03-27T15:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="browserStart(java.lang.String, java.lang.String)[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="browserStart" is-config="true" duration-ms="5710" started-at="2019-03-27T15:15:25Z" finished-at="2019-03-27T15:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method status="PASS" signature="methodNameAppend(java.lang.reflect.Method)[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="methodNameAppend" is-config="true" duration-ms="16" started-at="2019-03-27T15:15:31Z" finished-at="2019-03-27T15:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.MarketplaceLogin.openingLoginPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNameAppend -->
+        <test-method status="PASS" signature="openingLoginPage()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="openingLoginPage" duration-ms="15738" started-at="2019-03-27T15:15:31Z" finished-at="2019-03-27T15:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingLoginPage -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2019-03-27T15:15:46Z" finished-at="2019-03-27T15:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openingLoginPage status=SUCCESS method=MarketplaceLogin.openingLoginPage()[pri:0, instance:testCases.MarketplaceLogin@59e84876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="methodNameAppend(java.lang.reflect.Method)[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="methodNameAppend" is-config="true" duration-ms="0" started-at="2019-03-27T15:15:46Z" finished-at="2019-03-27T15:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.MarketplaceLogin.loginSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNameAppend -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="loginSuccess" duration-ms="5415" started-at="2019-03-27T15:15:46Z" depends-on-methods="testCases.MarketplaceLogin.openingLoginPage" finished-at="2019-03-27T15:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2019-03-27T15:15:52Z" finished-at="2019-03-27T15:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSuccess status=SUCCESS method=MarketplaceLogin.loginSuccess()[pri:0, instance:testCases.MarketplaceLogin@59e84876] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testCases.MarketplaceLogin@59e84876]" name="browserClose" is-config="true" duration-ms="1727" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testCases.MarketplaceLogin -->
+      <class name="testCases.MarketplaceChangePassword">
+        <test-method status="PASS" signature="methodNameAppend(java.lang.reflect.Method)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="methodNameAppend" is-config="true" duration-ms="1" started-at="2019-03-27T15:15:52Z" finished-at="2019-03-27T15:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.MarketplaceChangePassword.changePassword() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNameAppend -->
+        <test-method status="PASS" signature="changePassword()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="changePassword" duration-ms="11883" started-at="2019-03-27T15:15:52Z" finished-at="2019-03-27T15:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changePassword status=SUCCESS method=MarketplaceChangePassword.changePassword()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="methodNameAppend(java.lang.reflect.Method)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="methodNameAppend" is-config="true" duration-ms="0" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.MarketplaceChangePassword.successMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNameAppend -->
+        <test-method status="PASS" signature="successMessage()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="successMessage" duration-ms="0" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successMessage -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successMessage status=SUCCESS method=MarketplaceChangePassword.successMessage()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="methodNameAppend(java.lang.reflect.Method)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="methodNameAppend" is-config="true" duration-ms="1" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.MarketplaceChangePassword.successMessage1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNameAppend -->
+        <test-method status="PASS" signature="successMessage1()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="successMessage1" duration-ms="0" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successMessage1 -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2019-03-27T15:16:04Z" finished-at="2019-03-27T15:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successMessage1 status=SUCCESS method=MarketplaceChangePassword.successMessage1()[pri:0, instance:testCases.MarketplaceChangePassword@3c09711b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- testCases.MarketplaceChangePassword -->
+    </test> <!-- Test for Marketplace Change Password -->
+  </suite> <!-- Suite -->
+</testng-results>

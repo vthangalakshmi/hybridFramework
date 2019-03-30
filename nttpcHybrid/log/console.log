@@ -441,3 +441,121 @@ Session ID: 9f07f1ca55358b8755bd1d4f34b94724
  INFO [main] (MarketplaceLogin.java:42)- Login is successful
  INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully logoutLink
  INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully loginButton
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:42)- Login is successful
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element MyAccountPage
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePassword
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Change Password Tab
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Current Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element New Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Confirm Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePasswordSubmit
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Submit button of Change Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully logoutLink
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (MarketplaceChangePassword.java:32)- Change Password is successful
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully loginButton
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:38)- Login is successful
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element MyAccountPage
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePassword
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Change Password Tab
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Current Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element New Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Confirm Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePasswordSubmit
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Submit button of Change Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully logoutLink
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (MarketplaceChangePassword.java:28)- Change Password is successful
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ERROR [main] (ActionsDriver.java:102)- Element Highlight is unsuccessful accountHeader and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+ERROR [main] (ActionsDriver.java:74)- Failed to mouse over and click the element LoginLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+ERROR [main] (ActionsDriver.java:57)- Failed to enter the input for the element EmailID and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=email}
+ERROR [main] (ActionsDriver.java:57)- Failed to enter the input for the element Password and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=pass}
+ERROR [main] (ActionsDriver.java:102)- Element Highlight is unsuccessful loginButton and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']}
+ERROR [main] (ActionsDriver.java:42)- Failed to click the element Login Button and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']}
+ INFO [main] (MarketplaceLogin.java:37)- Login is successful
+ERROR [main] (ActionsDriver.java:102)- Element Highlight is unsuccessful logoutLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+ERROR [main] (ActionsDriver.java:74)- Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+ INFO [main] (ActionsDriver.java:26)- Opened URL
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element LoginLink
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element EmailID
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully loginButton
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Login Button
+ INFO [main] (MarketplaceLogin.java:37)- Login is successful
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully accountHeader
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element MyAccountPage
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePassword
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Change Password Tab
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Current Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element New Password
+ INFO [main] (ActionsDriver.java:55)- Passed keys to the element Confirm Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully changePasswordSubmit
+ INFO [main] (ActionsDriver.java:39)- Clicked the element Submit button of Change Password
+ INFO [main] (ActionsDriver.java:100)- Element Hightlighted successfully logoutLink
+ INFO [main] (ActionsDriver.java:72)- Mouseover and click is successful for the element Logout Link
+ INFO [main] (MarketplaceChangePassword.java:28)- Change Password is successful

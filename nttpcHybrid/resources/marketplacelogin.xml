@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test - Marketplace Login and logout">
-      <parameter name="Browser" value="Chrome"/> 
+      <parameter name="Browser" value="IE"/> 
       <parameter name="LocaleSelection" value="Japanese"/>   
     <classes>
-      <class name="testCases.MarketplaceLogin"/>
+      <class name="com.nttpc.marketplace.testcases.MarketplaceLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

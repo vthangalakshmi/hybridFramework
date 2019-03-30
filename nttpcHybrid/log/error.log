@@ -287,3 +287,59 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\sundar\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
 Session ID: 9f07f1ca55358b8755bd1d4f34b94724
 *** Element info: {Using=xpath, value=//ul[@id='usr-menu']/li[5]/a} - customcommands.ActionsDriver.mouseHoverAndClick(ActionsDriver.java:73) - 2019-03-27 19:04:15,973
+2019-03-28 18:44:09,068 - Hybrid Framework - ERROR - Element Highlight is unsuccessful accountHeader and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]} - customcommands.ActionsDriver.highLightElement(ActionsDriver.java:102) - 2019-03-28 18:44:09,068
+2019-03-28 18:44:09,109 - Hybrid Framework - ERROR - Failed to mouse over and click the element LoginLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]} - customcommands.ActionsDriver.mouseHoverAndClick(ActionsDriver.java:74) - 2019-03-28 18:44:09,109
+2019-03-28 18:44:09,149 - Hybrid Framework - ERROR - Failed to enter the input for the element EmailID and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=email} - customcommands.ActionsDriver.type(ActionsDriver.java:57) - 2019-03-28 18:44:09,149
+2019-03-28 18:44:09,172 - Hybrid Framework - ERROR - Failed to enter the input for the element Password and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=pass} - customcommands.ActionsDriver.type(ActionsDriver.java:57) - 2019-03-28 18:44:09,172
+2019-03-28 18:44:09,193 - Hybrid Framework - ERROR - Element Highlight is unsuccessful loginButton and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']} - customcommands.ActionsDriver.highLightElement(ActionsDriver.java:102) - 2019-03-28 18:44:09,193
+2019-03-28 18:44:09,214 - Hybrid Framework - ERROR - Failed to click the element Login Button and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']} - customcommands.ActionsDriver.click(ActionsDriver.java:42) - 2019-03-28 18:44:09,214
+2019-03-28 18:44:10,254 - Hybrid Framework - ERROR - Element Highlight is unsuccessful logoutLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]} - customcommands.ActionsDriver.highLightElement(ActionsDriver.java:102) - 2019-03-28 18:44:10,254
+2019-03-28 18:44:10,275 - Hybrid Framework - ERROR - Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]} - customcommands.ActionsDriver.mouseHoverAndClick(ActionsDriver.java:74) - 2019-03-28 18:44:10,275

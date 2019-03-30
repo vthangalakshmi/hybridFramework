@@ -1,25 +1,20 @@
-package testCases;
+package com.nttpc.marketplace.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import customcommands.ActionsDriver;
-import customcommands.PropertyReader;
-import objectrepository.MarketplaceHomePage;
-import objectrepository.MarketplaceLoginPage;
-import objectrepository.UsernameDropdownPage;
+import com.nttpc.marketplace.objectrepository.MarketplaceHomePage;
+import com.nttpc.marketplace.objectrepository.MarketplaceLoginPage;
+import com.nttpc.marketplace.objectrepository.UsernameDropdownPage;
+import com.nttpc.utilities.ActionsDriver;
 
 public class MarketplaceLogin extends ActionsDriver {
-	
-	public PropertyReader pReader;
-	
 	@Test(groups={"SmokeTesting"})
 	public void openingLoginPage() throws Exception{
 		try{
-			pReader=new PropertyReader();
 			exTest.log(Status.INFO, "Launch the application");
-			launchApplication(pReader.getMarketplaceUrl());
+			launchApplication(marketplaceURL);
 			Thread.sleep(3000);
 			exTest.log(Status.INFO, "Go to the login page");
 			highLightElement(MarketplaceHomePage.linkAccount,"accountHeader");
@@ -34,8 +29,8 @@ public class MarketplaceLogin extends ActionsDriver {
 	public void loginSuccess() throws Exception{
 		try{
 			exTest.log(Status.INFO, "Login to the application");
-			type(MarketplaceLoginPage.mailid, pReader.getMarketplaceEmailid(),"EmailID");
-			type(MarketplaceLoginPage.password, pReader.getMarketplacePassword(),"Password");
+			type(MarketplaceLoginPage.mailid, marketplaceUserName,"EmailID");
+			type(MarketplaceLoginPage.password, marketplacePasssword,"Password");
 			highLightElement(MarketplaceLoginPage.btnSignin,"loginButton");
 			click(MarketplaceLoginPage.btnSignin,"Login Button");
 			Thread.sleep(1000);

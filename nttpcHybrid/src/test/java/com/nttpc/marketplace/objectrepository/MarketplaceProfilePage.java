@@ -1,4 +1,4 @@
-package objectrepository;
+package com.nttpc.marketplace.objectrepository;
 
 import org.openqa.selenium.By;
 

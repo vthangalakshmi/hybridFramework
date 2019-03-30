@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actualScripts.MarketplaceLogin">
+      <class name="testCases.MarketplaceLogin">
         <methods>
           <include name="report"/>
           <include name="browserClose"/>
+          <include name="loginSuccess"/>
           <include name="attachScreenshot"/>
+          <include name="logOut"/>
           <include name="methodNameAppend"/>
           <include name="browserStart"/>
-          <include name="logOut"/>
           <include name="openingLoginPage"/>
         </methods>
-      </class> <!-- actualScripts.MarketplaceLogin -->
+      </class> <!-- testCases.MarketplaceLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

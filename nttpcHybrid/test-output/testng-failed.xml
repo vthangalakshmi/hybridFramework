@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test - Marketplace Login and logout(failed)">
     <parameter name="LocaleSelection" value="Japanese"/>
-    <parameter name="Browser" value="Chrome"/>
+    <parameter name="Browser" value="IE"/>
     <classes>
       <class name="testCases.MarketplaceLogin">
         <methods>

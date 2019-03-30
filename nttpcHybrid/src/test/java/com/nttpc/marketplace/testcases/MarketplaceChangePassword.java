@@ -1,27 +1,23 @@
-package testCases;
+package com.nttpc.marketplace.testcases;
 
 import org.testng.annotations.Test;
 
-import customcommands.ActionsDriver;
-import customcommands.PropertyReader;
-import objectrepository.MarketplaceChangePasswordPage;
-import objectrepository.MarketplaceProfilePage;
-import objectrepository.UsernameDropdownPage;
+import com.nttpc.marketplace.objectrepository.MarketplaceChangePasswordPage;
+import com.nttpc.marketplace.objectrepository.MarketplaceProfilePage;
+import com.nttpc.marketplace.objectrepository.UsernameDropdownPage;
+import com.nttpc.utilities.ActionsDriver;
 
 public class MarketplaceChangePassword extends ActionsDriver {
 
-	public PropertyReader pReader;//@Test(dependsOnGroups="Marketplace Login",groups="Smoke")
+	//@Test(dependsOnGroups="Marketplace Login",groups="Smoke")
 	@Test(priority=0,groups="SmokeTesting")
-	
-	//@Test
 	public void changePassword() throws Exception{
-		pReader=new PropertyReader();
 		try{
-			highLightElement(UsernameDropdownPage.linkAccountHeader,"accountHeader");
+		highLightElement(UsernameDropdownPage.linkAccountHeader,"accountHeader");
 		mouseHoverAndClick(UsernameDropdownPage.linkAccountHeader, UsernameDropdownPage.linkProfile,"MyAccountPage");
 		highLightElement(MarketplaceProfilePage.linkChangePassword,"changePassword");
 		click(MarketplaceProfilePage.linkChangePassword,"Change Password Tab");
-		type(MarketplaceChangePasswordPage.txtCurrentPassword, pReader.getMarketplacePassword(),"Current Password");
+		type(MarketplaceChangePasswordPage.txtCurrentPassword,marketplacePasssword ,"Current Password");
 		type(MarketplaceChangePasswordPage.txtNewPassword,generatePassword(),"New Password");
 		type(MarketplaceChangePasswordPage.txtConfirmPassword,generatePassword(),"Confirm Password");
 		highLightElement(MarketplaceChangePasswordPage.btnSubmit,"changePasswordSubmit");

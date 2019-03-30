@@ -441,3 +441,121 @@ Session ID: 9f07f1ca55358b8755bd1d4f34b94724
 2019-03-28 14:53:52,746 [main] INFO Hybrid Framework - Login is successful
 2019-03-28 14:53:52,815 [main] INFO Hybrid Framework - Element Hightlighted successfully logoutLink
 2019-03-28 14:53:53,979 [main] INFO Hybrid Framework - Mouseover and click is successful for the element Logout Link
+2019-03-28 16:30:11,384 [main] INFO Hybrid Framework - Opened URL
+2019-03-28 16:30:14,455 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-28 16:30:15,740 [main] INFO Hybrid Framework - Mouseover and click is successful for the element LoginLink
+2019-03-28 16:30:16,137 [main] INFO Hybrid Framework - Passed keys to the element EmailID
+2019-03-28 16:30:16,362 [main] INFO Hybrid Framework - Passed keys to the element Password
+2019-03-28 16:30:16,417 [main] INFO Hybrid Framework - Element Hightlighted successfully loginButton
+2019-03-28 16:30:18,807 [main] INFO Hybrid Framework - Clicked the element Login Button
+2019-03-28 16:30:19,809 [main] INFO Hybrid Framework - Login is successful
+2019-03-28 16:30:19,868 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-28 16:30:21,561 [main] INFO Hybrid Framework - Mouseover and click is successful for the element MyAccountPage
+2019-03-28 16:30:21,619 [main] INFO Hybrid Framework - Element Hightlighted successfully changePassword
+2019-03-28 16:30:22,815 [main] INFO Hybrid Framework - Clicked the element Change Password Tab
+2019-03-28 16:30:23,080 [main] INFO Hybrid Framework - Passed keys to the element Current Password
+2019-03-28 16:30:23,343 [main] INFO Hybrid Framework - Passed keys to the element New Password
+2019-03-28 16:30:23,585 [main] INFO Hybrid Framework - Passed keys to the element Confirm Password
+2019-03-28 16:30:23,632 [main] INFO Hybrid Framework - Element Hightlighted successfully changePasswordSubmit
+2019-03-28 16:30:25,621 [main] INFO Hybrid Framework - Clicked the element Submit button of Change Password
+2019-03-28 16:30:28,667 [main] INFO Hybrid Framework - Element Hightlighted successfully logoutLink
+2019-03-28 16:30:29,833 [main] INFO Hybrid Framework - Mouseover and click is successful for the element Logout Link
+2019-03-28 16:30:29,833 [main] INFO Hybrid Framework - Change Password is successful
+2019-03-28 18:34:53,124 [main] INFO Hybrid Framework - Opened URL
+2019-03-28 18:34:56,232 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-28 18:34:57,490 [main] INFO Hybrid Framework - Mouseover and click is successful for the element LoginLink
+2019-03-28 18:34:57,911 [main] INFO Hybrid Framework - Passed keys to the element EmailID
+2019-03-28 18:34:58,234 [main] INFO Hybrid Framework - Passed keys to the element Password
+2019-03-28 18:34:58,295 [main] INFO Hybrid Framework - Element Hightlighted successfully loginButton
+2019-03-28 18:35:01,385 [main] INFO Hybrid Framework - Clicked the element Login Button
+2019-03-28 18:35:02,386 [main] INFO Hybrid Framework - Login is successful
+2019-03-28 18:35:02,461 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-28 18:35:04,364 [main] INFO Hybrid Framework - Mouseover and click is successful for the element MyAccountPage
+2019-03-28 18:35:04,435 [main] INFO Hybrid Framework - Element Hightlighted successfully changePassword
+2019-03-28 18:35:06,072 [main] INFO Hybrid Framework - Clicked the element Change Password Tab
+2019-03-28 18:35:06,325 [main] INFO Hybrid Framework - Passed keys to the element Current Password
+2019-03-28 18:35:06,578 [main] INFO Hybrid Framework - Passed keys to the element New Password
+2019-03-28 18:35:06,825 [main] INFO Hybrid Framework - Passed keys to the element Confirm Password
+2019-03-28 18:35:06,874 [main] INFO Hybrid Framework - Element Hightlighted successfully changePasswordSubmit
+2019-03-28 18:35:09,019 [main] INFO Hybrid Framework - Clicked the element Submit button of Change Password
+2019-03-28 18:35:12,076 [main] INFO Hybrid Framework - Element Hightlighted successfully logoutLink
+2019-03-28 18:35:13,388 [main] INFO Hybrid Framework - Mouseover and click is successful for the element Logout Link
+2019-03-28 18:35:13,389 [main] INFO Hybrid Framework - Change Password is successful
+2019-03-28 18:44:05,912 [main] INFO Hybrid Framework - Opened URL
+2019-03-28 18:44:09,068 [main] ERROR Hybrid Framework - Element Highlight is unsuccessful accountHeader and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+2019-03-28 18:44:09,109 [main] ERROR Hybrid Framework - Failed to mouse over and click the element LoginLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+2019-03-28 18:44:09,149 [main] ERROR Hybrid Framework - Failed to enter the input for the element EmailID and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=email}
+2019-03-28 18:44:09,172 [main] ERROR Hybrid Framework - Failed to enter the input for the element Password and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=id, value=pass}
+2019-03-28 18:44:09,193 [main] ERROR Hybrid Framework - Element Highlight is unsuccessful loginButton and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']}
+2019-03-28 18:44:09,214 [main] ERROR Hybrid Framework - Failed to click the element Login Button and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//*[@id='send2']}
+2019-03-28 18:44:10,217 [main] INFO Hybrid Framework - Login is successful
+2019-03-28 18:44:10,254 [main] ERROR Hybrid Framework - Element Highlight is unsuccessful logoutLink and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+2019-03-28 18:44:10,275 [main] ERROR Hybrid Framework - Failed to mouse over and click the element Logout Link and the exception is org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THANGAM-LT', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:43448/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 099d7f2b-6d0e-4789-8b51-d73ef0b1e6d3
+*** Element info: {Using=xpath, value=//a[@id='usr-icn']/span[1]}
+2019-03-29 21:31:24,109 [main] INFO Hybrid Framework - Opened URL
+2019-03-29 21:31:27,245 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-29 21:31:28,697 [main] INFO Hybrid Framework - Mouseover and click is successful for the element LoginLink
+2019-03-29 21:31:29,106 [main] INFO Hybrid Framework - Passed keys to the element EmailID
+2019-03-29 21:31:29,318 [main] INFO Hybrid Framework - Passed keys to the element Password
+2019-03-29 21:31:29,363 [main] INFO Hybrid Framework - Element Hightlighted successfully loginButton
+2019-03-29 21:31:32,807 [main] INFO Hybrid Framework - Clicked the element Login Button
+2019-03-29 21:31:33,809 [main] INFO Hybrid Framework - Login is successful
+2019-03-29 21:31:33,865 [main] INFO Hybrid Framework - Element Hightlighted successfully accountHeader
+2019-03-29 21:31:36,031 [main] INFO Hybrid Framework - Mouseover and click is successful for the element MyAccountPage
+2019-03-29 21:31:36,082 [main] INFO Hybrid Framework - Element Hightlighted successfully changePassword
+2019-03-29 21:31:37,551 [main] INFO Hybrid Framework - Clicked the element Change Password Tab
+2019-03-29 21:31:37,779 [main] INFO Hybrid Framework - Passed keys to the element Current Password
+2019-03-29 21:31:37,998 [main] INFO Hybrid Framework - Passed keys to the element New Password
+2019-03-29 21:31:38,215 [main] INFO Hybrid Framework - Passed keys to the element Confirm Password
+2019-03-29 21:31:38,260 [main] INFO Hybrid Framework - Element Hightlighted successfully changePasswordSubmit
+2019-03-29 21:31:41,148 [main] INFO Hybrid Framework - Clicked the element Submit button of Change Password
+2019-03-29 21:31:44,203 [main] INFO Hybrid Framework - Element Hightlighted successfully logoutLink
+2019-03-29 21:31:45,516 [main] INFO Hybrid Framework - Mouseover and click is successful for the element Logout Link
+2019-03-29 21:31:45,517 [main] INFO Hybrid Framework - Change Password is successful
